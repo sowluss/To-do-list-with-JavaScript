@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  background: lightblue;
+  width: 50%;
+  height: 70vh;
+  position: relative;
+  margin-top: 10rem;
+  text-align: center;
+  left: 25%;
+}
+
+.item {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.item input {
+  display: block;
+  margin: 2rem;
+  width: 15rem;
+  height: 2rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.tasks {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#tasks-list {
+  height: 2rem;
+  width: 15rem;
+  background: black;
+  margin: 2rem;
+}
+
+.tasks #lists {
+  margin-top: 2rem;
+}
+
+button {
+  height: 2rem;
+  width: 4rem;
+  outline: none;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
